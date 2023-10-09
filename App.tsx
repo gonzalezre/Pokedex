@@ -3,6 +3,7 @@ import * as React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { HomeScreen } from './src/screens/HomeScreen';
 import { Navigator } from './src/navigator/Navigator';
+import { Text } from 'react-native';
 
 const App = () => {
   return (
