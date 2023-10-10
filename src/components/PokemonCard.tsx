@@ -59,7 +59,7 @@ export const PokemonCard = ({ pokemon }: Props) => {
                 <View>
                     <Text style={styles.cardName}>
                         {pokemon.name}
-                        {'\n' + pokemon.id}
+                        {'\n#' + pokemon.id}
                     </Text>
                 </View>
 
